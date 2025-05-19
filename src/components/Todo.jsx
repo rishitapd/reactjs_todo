@@ -10,6 +10,8 @@ const Todo = () => {
     if(inputText===""){
         return null;
     }
+
+    // git
     console.log(inputText);
     const newTodo={
         id:Date.now(),
